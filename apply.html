@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e4807bb23d.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/favicon.png">
+    <title>Apply - Nexus Academy</title>
+    
+</head>
+<body>
+    
+    <nav>
+        <div onclick="home()" class="left">
+            <img src="img/favicon.png" width="40px" height="40px">
+            <h1 class="logo">Nexus</h1>
+        </div>
+        <div class="center">
+            <a href="programs.html" class="nav-link"><i style="margin-right:8px;" class="fa-solid fa-graduation-cap"></i> Programs</a>
+            <a href="technology.html" style="margin-left:10px;" class="nav-link"><i style="margin-right:8px;" class="fa-solid fa-microchip"></i> Technology</a>
+            <a href="admissions.html" style="margin-left:10px;" class="nav-link"><i style="margin-right:8px;" class="fa-solid fa-book"></i> Admissions</a>
+        </div>
+        <div class="right">
+            <a href="apply.html" class="apply-link"><i style="margin-right:8px;" class="fa-solid fa-building-columns"></i> Apply</a>
+        </div>
+    </nav>
+
+    <header class="apply-header">
+        <div class="header-content">
+            <h2 class="header-subtitle">Get Started</h2>
+            <h1 class="header-title">Apply to Nexus Academy</h1>
+            <p class="header-description">Take the first step toward your future. Fill out the application form below to join Nexus Academy.</p>
+        </div>
+        <div class="header-image">
+            <img src="img/apply-banner.png" alt="Apply Banner" class="banner-img">
+        </div>
+    </header>
+
+    <main class="apply-main">
+        <h1 class="section-title">Application Form</h1>
+        <form class="application-form">
+            <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+                <label for="program">Program of Interest</label>
+                <select id="program" name="program" required>
+                    <option value="" disabled selected>Select a program</option>
+                    <option value="ai">AI & Machine Learning</option>
+                    <option value="quantum">Quantum Computing</option>
+                    <option value="space">Space Sciences</option>
+                    <option value="environmental">Environmental Rebuilding</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Why do you want to join Nexus Academy?</label>
+                <textarea style="font-family: Inter, sans-serif;" id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Submit Application</button>
+        </form>
+    </main>
+    <div class="overlay-success" id="overlay-success">
+        <div class="overlay-content">
+            <h2>Application Submitted!</h2>
+            <p>Thank you for applying to Nexus Academy. We will review your application and get back to you soon.</p>
+            <button onclick="closeSuccess()" class="close-button">Close</button>
+        </div>
+    </div>
+
+    <div class="footer" style="margin-top: -1vh;">
+        <div class="ony">
+            <img src="img/favicon.png" width="40px" height="40px">
+            <h2 style="margin-left:5px;font-weight:600;">Nexus Academy</h2>
+            
+        </div>
+        <p style="margin-top:2.7vh;" id="cp">Copyright © 2025 <a class="foo" href="https://vpun215.netlify.app">v-pun215</a>.</p>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
