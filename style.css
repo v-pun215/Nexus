@@ -19,7 +19,7 @@ nav {
     margin-top: 5vh;
     margin-bottom: 5vh;
     flex-wrap: wrap;
-    gap: 5vh;
+    gap: 3vh;
 }
 .program {
     background-color: #0c0f1f;
@@ -232,8 +232,9 @@ p {
     justify-content: space-between;
     align-items: center;
     padding: 50px 7%;
-    background-color: #02162E;
+    background: linear-gradient(135deg, #02162E, #0c0f1f);
     color: #f1f5f9;
+    border-bottom: 2px solid #1e293b;
 }
 .header-content {
     max-width: 50%;
@@ -517,8 +518,9 @@ p {
     justify-content: space-between;
     align-items: center;
     padding: 50px 7%;
-    background-color: #02162E;
+    background: linear-gradient(135deg, #02162E, #0c0f1f);
     color: #f1f5f9;
+    border-bottom: 2px solid #1e293b;
 }
 .header-content {
     max-width: 50%;
@@ -543,8 +545,9 @@ p {
     justify-content: space-between;
     align-items: center;
     padding: 50px 7%;
-    background-color: #02162E;
+    background: linear-gradient(135deg, #02162E, #0c0f1f);
     color: #f1f5f9;
+    border-bottom: 2px solid #1e293b;
 }
 .header-content {
     max-width: 50%;
@@ -684,79 +687,127 @@ p {
     justify-content: space-between;
     align-items: center;
     padding: 50px 7%;
-    background-color: #02162E;
+    background: linear-gradient(135deg, #02162E, #0c0f1f);
     color: #f1f5f9;
+    border-bottom: 2px solid #1e293b;
 }
+
 .header-content {
     max-width: 50%;
 }
+
 .header-title {
-    font-size: 2.5rem;
-    margin: 10px 0;
-}
-.header-description {
-    font-size: 1.1rem;
-    line-height: 1.6;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #83D7F3;
 }
 
-/* Technology Section */
-.technology-main {
+.header-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #cbd5e1;
+}
+
+
+/* Intro Section */
+.intro-section {
+    text-align: center;
     padding: 50px 7%;
     background-color: #0c0f1f;
     color: #f1f5f9;
 }
+
 .section-title {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 30px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #83D7F3;
 }
+
+.section-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #cbd5e1;
+}
+
+/* Technology Grid */
 .technology-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-.technology-card {
+    gap: 30px;
+    padding: 50px 7%;
     background-color: #02162E;
+}
+
+.technology-card {
+    background: linear-gradient(135deg, #02162E, #0c0f1f);
     border-radius: 15px;
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
 .technology-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
+
 .technology-card-img {
     border-radius: 10px;
     margin-bottom: 15px;
-    max-width:50%;
+    max-width: 80%;
     height: auto;
 }
+
 .technology-card-title {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
     color: #83D7F3;
 }
+
 .technology-card-desc {
     font-size: 1rem;
     color: #cbd5e1;
+    line-height: 1.6;
 }
 
-/* Footer */
-.technology-footer {
+/* Call-to-Action Section */
+.cta-section {
     text-align: center;
-    padding: 20px;
-    background-color: #101927;
+    padding: 50px 7%;
+    background: linear-gradient(135deg, #0c0f1f, #02162E);
+    color: #f1f5f9;
+}
+
+.cta-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #83D7F3;
+}
+
+.cta-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
     color: #cbd5e1;
 }
-.footer-link {
-    color: #83D7F3;
-    text-decoration: none;
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #83D7F3;
+    color: #101927;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
-.footer-link:hover {
-    text-decoration: underline;
+
+.cta-button:hover {
+    background-color: #66c2e8;
 }
+
+
 /* Footer */
 .programs-footer {
     text-align: center;
@@ -776,12 +827,16 @@ p {
     display: flex; /* Use Flexbox for layout */
     flex-wrap: wrap; /* Allow wrapping for responsiveness */
     justify-content: center; /* Center the cards horizontally */
-    gap: 20px; /* Add spacing between cards */
+    gap: 3vh; /* Add spacing between cards */
     margin-top: 20px; /* Add some margin above the grid */
+}
+.grouped {
+    display:flex;
+    justify-content: center;
 }
 
 .testimonials_grid .said {
-    background-color: #02162E; /* A modern, dark blue-gray background */
+    background-color: #0C0F1F; /* A modern, dark blue-gray background */
     border-radius: 20px; /* Smooth rounded corners */
     border: none; /* Remove border for a cleaner look */
     padding: 25px; /* Add padding for spacing */
@@ -791,11 +846,12 @@ p {
     transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
     color: #f1f5f9; /* Light text color for better contrast */
+    border: 2px solid #1E1B33;
 }
 
 .testimonials_grid .said:hover {
     transform: translateY(-5px); /* Slight lift effect on hover */
-    background-color: #334155; /* Slightly darker background on hover */
+    background-color: #19192b; /* Darker background on hover */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); /* Enhanced shadow on hover */
 }
 
@@ -843,7 +899,8 @@ p {
     border-radius:1rem;
     width:100px;
     height:101px;
-    margin-bottom:-20px;
+    margin-top:5vh;
+    margin-right:2vh;
 }
 .footer {
     display:flex;
@@ -854,7 +911,6 @@ p {
     border-top:1px solid #27272a;
     padding:15px;
     padding-left:30px;
-    width:97%;
 }
 body::-webkit-scrollbar {
     width: 12px;               /* width of the entire scrollbar */
