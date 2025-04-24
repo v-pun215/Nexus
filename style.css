@@ -226,7 +226,6 @@ p {
     background-color: #131315;
 }
 
-/* Header */
 .apply-header {
     display: flex;
     justify-content: space-between;
@@ -253,23 +252,22 @@ p {
     height: auto;
 }
 
-/* Success Overlay */
-/* Success Overlay */
+
 #overlay-success {
-    display: none; /* Hidden by default */
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    background-color: rgba(0, 0, 0, 0.8);
     z-index: 1000;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    overflow: hidden; /* Prevent scrolling */
-    margin: 0; /* Ensure no margin issues */
-    padding: 0; /* Ensure no padding issues */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .overlay-content {
@@ -281,8 +279,8 @@ p {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     max-width: 400px;
     width: 90%;
-    transform: translateY(0); /* Ensure no offset */
-    margin: 0 auto; /* Center horizontally */
+    transform: translateY(0);
+    margin: 0 auto;
 }
 .overlay-content h2 {
     font-size: 1.5rem;
@@ -312,7 +310,7 @@ p {
     background-color: #66c2e8;
 }
 
-/* Application Form */
+
 .apply-main {
     padding: 50px 7%;
     background-color: #0c0f1f;
@@ -375,7 +373,6 @@ p {
     background-color: #66c2e8;
 }
 
-/* Footer */
 .apply-footer {
     text-align: center;
     padding: 20px;
@@ -480,7 +477,6 @@ p {
     margin-left:28px;
 }
 
-/* Navigation */
 .nav-left, .nav-center, .nav-right {
     display: flex;
     align-items: center;
@@ -512,7 +508,7 @@ p {
     color: #101927;
 }
 
-/* Header */
+
 .programs-header {
     display: flex;
     justify-content: space-between;
@@ -539,7 +535,7 @@ p {
     height:40vh;
 }
 
-/* Header */
+
 .admissions-header {
     display: flex;
     justify-content: space-between;
@@ -562,7 +558,7 @@ p {
 }
 
 
-/* Admissions Section */
+
 .admissions-main {
     padding: 50px 7%;
     background-color: #0c0f1f;
@@ -622,7 +618,7 @@ p {
     color: #cbd5e1;
 }
 
-/* Footer */
+
 .admissions-footer {
     text-align: center;
     padding: 20px;
@@ -638,7 +634,7 @@ p {
 }
 
 
-/* Programs Section */
+
 .programs-main {
     padding: 50px 7%;
     background-color: #0c0f1f;
@@ -681,7 +677,7 @@ p {
     font-size: 1rem;
     color: #cbd5e1;
 }
-/* Header */
+
 .technology-header {
     display: flex;
     justify-content: space-between;
@@ -709,7 +705,6 @@ p {
 }
 
 
-/* Intro Section */
 .intro-section {
     text-align: center;
     padding: 50px 7%;
@@ -729,7 +724,6 @@ p {
     color: #cbd5e1;
 }
 
-/* Technology Grid */
 .technology-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -771,7 +765,7 @@ p {
     line-height: 1.6;
 }
 
-/* Call-to-Action Section */
+
 .cta-section {
     text-align: center;
     padding: 50px 7%;
@@ -808,7 +802,6 @@ p {
 }
 
 
-/* Footer */
 .programs-footer {
     text-align: center;
     padding: 20px;
@@ -824,11 +817,11 @@ p {
 }
 
 .testimonials_grid {
-    display: flex; /* Use Flexbox for layout */
-    flex-wrap: wrap; /* Allow wrapping for responsiveness */
-    justify-content: center; /* Center the cards horizontally */
-    gap: 3vh; /* Add spacing between cards */
-    margin-top: 20px; /* Add some margin above the grid */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vh;
+    margin-top: 20px;
 }
 .grouped {
     display:flex;
@@ -836,37 +829,37 @@ p {
 }
 
 .testimonials_grid .said {
-    background-color: #0C0F1F; /* A modern, dark blue-gray background */
-    border-radius: 20px; /* Smooth rounded corners */
-    border: none; /* Remove border for a cleaner look */
-    padding: 25px; /* Add padding for spacing */
-    width: 280px; /* Slightly wider cards */
-    height: auto; /* Allow height to adjust dynamically */
-    text-align: center; /* Center-align the content */
-    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
-    color: #f1f5f9; /* Light text color for better contrast */
+    background-color: #0C0F1F;
+    border-radius: 20px;
+    border: none;
+    padding: 25px;
+    width: 280px;
+    height: auto;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    color: #f1f5f9;
     border: 2px solid #1E1B33;
 }
 
 .testimonials_grid .said:hover {
-    transform: translateY(-5px); /* Slight lift effect on hover */
-    background-color: #19192b; /* Darker background on hover */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); /* Enhanced shadow on hover */
+    transform: translateY(-5px);
+    background-color: #19192b;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
 
 
 .said_title {
-    font-size: 1.25rem; /* Slightly larger font for the name */
-    font-weight: 600; /* Bold font for emphasis */
-    margin-bottom: 10px; /* Space below the title */
-    color: #e2e8f0; /* Softer white for the title */
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #e2e8f0; 
 }
 
 .said_desc {
-    font-size: 1rem; /* Standard font size for the description */
-    line-height: 1.5; /* Improve readability with line spacing */
-    color: #cbd5e1; /* Softer gray for the description text */
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #cbd5e1;
 }
 
 
@@ -913,20 +906,20 @@ p {
     padding-left:30px;
 }
 body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
+    width: 12px;
   }
   
   body::-webkit-scrollbar-track {
-    background: #0e0e10;        /* color of the tracking area */
+    background: #0e0e10;
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: #404040;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid #0e0e10;  /* creates padding around scroll thumb */
+    background-color: #404040;
+    border-radius: 20px;
+    border: 3px solid #0e0e10;
   }
   body::-webkit-scrollbar-thumb:hover {
-    background-color: #555;   /* color of the scroll thumb */
+    background-color: #555;
   }
 .ony {
     display:flex;
@@ -1126,169 +1119,6 @@ h2 {
         display: block;
     }
 }
-
-/*
-@media screen and (max-width: 800px) {
-    nav {
-        display:none;
-    }
-    .mnav {
-        display:flex;
-        justify-content: space-between;
-        padding-left:20px;
-        padding-right:30px;
-        padding-top:30px;
-    }
-    #mask {
-        display:none;
-    }
-    .banner {
-        padding:15px;
-        text-align: left;
-        border:none;
-    }
-    .features {
-        margin-top:250px;
-    }
-    .buttons {
-        display: block;
-        margin-top:50px;
-    }
-    .lefter {
-        margin-left:3.9%;
-        margin-top:20px;
-        width:80%;
-        margin-bottom:20px;
-    }
-    .centerer {
-        margin-left:3.9%;
-        margin-top:20px;
-        width:80%;
-        margin-bottom:20px;
-    }
-    .righter {
-        margin-left:3.9%;
-        margin-top:20px;
-        width:80%;
-        margin-bottom:20px;
-    }
-    .ft {
-        margin-top:50px;
-        display: block;
-    }
-    .ly {
-        text-align: left;
-        margin-left:3%;
-        margin-top:20px;
-        width:89.6%;
-        height:fit-content;
-        padding-bottom:15px;
-        margin-bottom:20px;
-        padding-left: 0px;
-    }
-    .ry {
-        margin-left:3%;
-        margin-top:20px;
-        width:89.6%;
-        height:fit-content;
-        padding-bottom:30px;
-        padding-left: 0px;
-        margin-bottom:20px;
-    }
-    .bottom {
-        margin-left:3%;
-        margin-top:20px;
-        width:89.6%;
-        height:fit-content;
-        padding-bottom:30px;
-        margin-bottom:20px;
-        padding-left: 0px;
-    }
-    .final {
-        margin-top:50px;
-        max-width:400px;
-        text-align:center;
-    }
-    .finallogo {
-        margin-left:0px;
-        margin-top:0px;
-        margin-bottom:0px;
-    }
-    .footer {
-        display:block;
-        margin-top:50px;
-        height:fit-content;
-        padding-left:10px;
-        padding-right:10px;
-        padding-top:0px;
-        padding-bottom:10px;
-        width:94%;
-        margin-bottom:-15px;
-    }
-    #cp {
-        margin-top:20px;
-        margin-left:28px;
-    }
-    .sm {
-        text-align: center;
-        font-size:15px;
-        margin-left:0px;
-    }
-    .lefty {
-        margin-left: 0%;
-        font-size:10px;
-        text-align: center;
-    }
-    .lefty h2 {
-        font-size: 2rem;
-    }
-    .lefty h1 {
-        font-size: 2.1rem;
-        text-align: center;
-        margin-top:-20px;
-    }
-    .lefty .ttl {
-        font-size: 1.25rem;
-        text-align: center;
-        margin-top:10px;
-    }
-    .news {
-        align-self: center;
-        margin-left:18%;
-
-        margin-top:20px;
-        margin-bottom:-20px;
-        font-size: 1rem;
-    }
-    .start {
-        text-align: center;
-        margin-top:15px;
-        margin-bottom:20px;
-        font-size: 1.25rem;
-    }
-    .imp {
-        font-size:2rem;
-        max-width:350px;
-        font-weight: 800;
-    }
-    #imp {
-        font-size:1.25rem;
-        max-width:250px;
-        line-height: 28px;
-    }
-    .features {
-        margin-top:50px;
-    }
-    .imp2 {
-        font-size:2.5rem;
-        max-width:350px;
-        font-weight: 700;
-    }
-    .imp3 {
-        font-size: 1.25rem;
-        max-width: 350px;
-    }
-} */
 
 .cool {
     background: linear-gradient(125deg, rgba(26,117,255,1) 13%, rgba(132,94,194,1) 72%);
