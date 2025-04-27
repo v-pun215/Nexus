@@ -22,14 +22,17 @@ nav {
     gap: 3vh;
 }
 .program {
-    background-color: #0c0f1f;
-    border-radius: 15px;
-    border: 2px solid #1e1c33;
-    padding: 20px;
-    width: 20vh;
-    height: 20vh;
+    background-color: #0C0F1F;
+    border-radius: 20px;
+    border: none;
+    padding: 25px;
+    width: 280px;
+    height: auto;
     text-align: center;
-    transition: all .2s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    color: #f1f5f9;
+    border: 2px solid #1E1B33;
 }
 .program:hover {
     cursor: default;
